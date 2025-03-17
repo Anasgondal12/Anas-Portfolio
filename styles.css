@@ -112,3 +112,16 @@ img {
   display: inline-block;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.container img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
